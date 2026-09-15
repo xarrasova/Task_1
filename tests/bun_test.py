@@ -1,11 +1,7 @@
 import pytest
+
 from praktikum.bun import Bun
-
-
-BUN_DATA = [
-    ("kratornaya bun", 1255),
-    ("fluorescent bun", 988),
-]
+from test_data import BUN_DATA
 
 
 class TestBun:
